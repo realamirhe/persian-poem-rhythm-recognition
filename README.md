@@ -40,14 +40,16 @@ which is for the test set. these new embedding has been padded with zero, make
 sure all the embedding sizes are fit together. For evaluation, I first tried some
 classic approaches as ones that were used in the original paper themselves.
 Classic models which were used:
-• Logistic Regression
-• Gaussian Naive Base
-• K Nearest Neighbors
-• Multi Layer Perceptron
-• SVM with both linear and non-linear kernel
-• Decision Tree
-• XGBoost
-• Gradient Boosting Ada boost classifier
++ Logistic Regression
++ Gaussian Naive Base
++ K Nearest Neighbors
++ Multi Layer Perceptron
++ SVM with both linear and non-linear kernel
++ Decision Tree
++ XGBoost
++ Gradient Boosting Ada boost classifier  
+
+
 I also try to combine an ensemble classifier to get higher accuracy on non-
 seen poems in the test set. For example, I used a Voting classifier and apply
 majority vote to classifier decisions.
@@ -91,6 +93,11 @@ will be converted to:
 
 مٓن بَا تُو حٓدیث بِی زٓبَان گُویم
 
+
+## 😲 Cognitive neuroscientist fact
+The left hemisphere may handle the lion’s share of language processing, but the right hemisphere does make some contributions. 
+The `right superior temporal sulcus` plays a role in processing the **rhythm of language** (prosody), and the right prefr ontal cortex, middle
+temporal gyrus, and posterior cingulate activate when sentences have metaphorical meaning.
 
 
 
